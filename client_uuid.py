@@ -4,7 +4,7 @@ from struct import pack
 from base64 import b64encode
 from time import mktime
 
-user_id = int("YOUR D1SC0RD ID")
+user_id = int("your discord id")
 number = int(4294967296 * random())
 creation_time = int(mktime(datetime.now().timetuple()) * 1000)
 
